@@ -1,0 +1,112 @@
+
+.navBg{
+  background-color: #820f0f;
+}
+.contenedor-linea{
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center center;
+  width:30%;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  margin:auto;
+  padding: 40px;
+  background-position: center;
+  display: grid;
+  gap:0.5rem;
+  grid-auto-rows: 20rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+
+}
+.contenedor2{
+  width: 90%;
+  max-width: 1200px;
+  margin:auto;
+  padding: 10px;
+  background-position: center;
+  display: grid;
+  gap:50rem;
+  grid-auto-rows: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(50rem,1fr));
+
+}
+
+.contenedor-presentacion{
+
+  border-radius: 5px;
+  margin:auto;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  width:70%;
+  display:grid;
+  gap:1rem;
+  grid-auto-rows: 20rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+  
+}
+.contenedor-presentacion2{
+
+  border-radius: 5px;
+  margin:auto;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  width:30%;
+  gap:1rem;
+  grid-auto-rows: 20rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+  
+}
+.rectangulo-vertical{
+  width: 32px;
+  height: 700px;
+  background: #820f0f;
+  position: absolute;
+  left: 0;
+}
+
+.card {
+	border-radius: 10px;
+  border-color: #820f0f;
+	min-height: 200px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+.Titulo1{
+  font-size:50px;
+  color: #820f0f;
+  text-align: left;
+
+}
+.Titulo5{
+  font-size:20px;
+  color: #820f0f;
+  text-align: left;
+}
+.TextoParrafo{
+  font-size:30 px;
+  color: rgb(8, 8, 61);
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+
+
